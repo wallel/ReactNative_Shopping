@@ -10,7 +10,6 @@ import {
 } from 'react-native';
 
 import Splash from '../Components/Splash';
-import StatusBarIOS from '../Components/StatusBarIOS';
 
 
 class App extends React.Component {
@@ -18,7 +17,6 @@ class App extends React.Component {
 
         return (
             <View style={{ flex: 1 }}>
-                <StatusBarIOS barStyle="default"/>
 
                 <Navigator
                     initialRoute={{ name: 'Splash', component: Splash }}
