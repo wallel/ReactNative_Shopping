@@ -52,7 +52,7 @@ $ react-native run-ios
 简单修改了下为了在android上运行:
 
 ```shell
-npm insall
+npm install
 npm run start
 npm run run-android
 ```
