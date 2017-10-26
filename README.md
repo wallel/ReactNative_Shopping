@@ -37,16 +37,23 @@ $ react-native run-ios
   "dependencies": {
     "react": "15.2.1",
     "react-native": "0.31.0",
-    "react-native-nav": "^1.1.4",
-    "react-native-scrollable-tab-view": "^0.5.3",
-    "react-native-swiper": "^1.4.4",
-    "react-native-tab-navigator": "^0.3.2",
-    "react-native-vector-icons": "^2.0.3",
-    "react-redux": "^4.4.5",
-    "redux": "^3.5.2",
-    "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.1.0"
+    "react-native-nav": "1.1.4",
+    "react-native-scrollable-tab-view": "0.5.3",
+    "react-native-swiper": "1.4.4",
+    "react-native-tab-navigator": "0.3.2",
+    "react-native-vector-icons": "2.0.3",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2",
+    "redux-logger": "2.6.1",
+    "redux-thunk": "2.1.0"
   },
-  ```
+```
 
-如果大家觉得有用欢迎给个start✨✨✨✨✨✨✨✨✨
+简单修改了下为了在android上运行:
+
+```shell
+npm insall
+npm run start
+npm run run-android
+```
+
